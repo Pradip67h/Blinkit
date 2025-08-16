@@ -1,0 +1,79 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+    .header-left{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .header-add{
+        padding: 10px;
+    }
+    .header-add h3{
+        font-size: 15px;
+    }
+    .header-add p{
+        font-size: 12px;
+    }
+    .searh-box button{
+        padding: 10px;
+    }
+
+    .header-btn{
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        margin-right: 0px;
+        justify-content: center;
+        bottom: 0px;
+    }
+
+    .banner-section{
+        display: none;
+    }
+
+    .order-banner{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .category-items{
+        flex-basis: 25%;
+    }
+
+    .product-section{
+        padding: 30px 10px;
+    }
+
+    .product-items{
+        flex-basis: 49%;
+    }
+
+    .footer{
+        padding-top: 0px;
+    } 
+
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .useFulLinks2 ul li{
+        flex-basis: 48%;
+    }
+
+    .footer-mid-row3{
+        padding: 0px 10px;
+    }
+
+    .footer-mid-row2{
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+}
